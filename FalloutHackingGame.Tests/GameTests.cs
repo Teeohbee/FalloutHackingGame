@@ -33,6 +33,7 @@ namespace FalloutHackingGame.Tests
         {
             var state = _game.Attempt("CROPPERS");
 
+            // Using GameState.Win here as a quick hack/win. Needs changing.
             Assert.That(state, Is.EqualTo(GameState.Win));
         }
 
@@ -40,7 +41,7 @@ namespace FalloutHackingGame.Tests
         public void Attempt_GivenNotWinningWord_ReturnsGameStateThatIsNotAWin()
         {
             var state = _game.Attempt("SCORPION");
-
+            // Need a clearer loss state.
             Assert.That(state, Is.Not.EqualTo(GameState.Win));
         }
 
