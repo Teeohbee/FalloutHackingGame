@@ -5,12 +5,13 @@ namespace FalloutHackingGame
 {
     public class Game : List<string>
     {
+        // Private property defining the winning word
         private readonly string _winningWord;
 
         public Game(IEnumerable<string> options, string winningWord)
         {
-            _winningWord = winningWord;
-            AddRange(options);
+            _winningWord = winningWord; // sets the winning word as a passed in object
+            AddRange(options); // 
         }
 
         public GameState Attempt(string guess)
