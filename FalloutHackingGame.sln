@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalloutHackingGame", "FalloutHackingGame\FalloutHackingGame.csproj", "{8620B32F-1199-4337-B789-6672FD3D4EAC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalloutHackingGame.Tests", "FalloutHackingGame.Tests\FalloutHackingGame.Tests.csproj", "{6792455B-DAA2-48F7-BD99-553D553BE8CA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalloutHackingGameConsole", "FalloutHackingGameConsole\FalloutHackingGameConsole.csproj", "{0489754C-7E67-4671-ACFD-45E218DEA5AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{6792455B-DAA2-48F7-BD99-553D553BE8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6792455B-DAA2-48F7-BD99-553D553BE8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6792455B-DAA2-48F7-BD99-553D553BE8CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0489754C-7E67-4671-ACFD-45E218DEA5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0489754C-7E67-4671-ACFD-45E218DEA5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0489754C-7E67-4671-ACFD-45E218DEA5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0489754C-7E67-4671-ACFD-45E218DEA5AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
